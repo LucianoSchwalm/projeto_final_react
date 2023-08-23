@@ -1,0 +1,13 @@
+.title{
+    font-size: 50px;
+}
+
+.section{
+    display: flex;
+    align-items: row;
+    gap: 25px;
+}
+
+*{
+    padding-left: 5px;
+}

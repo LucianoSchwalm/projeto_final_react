@@ -1,0 +1,24 @@
+th, td{
+    padding: 15px;
+}
+
+.table{
+    width: 100%;
+    text-align: left;
+}
+
+.header{
+    background-color: black;
+}
+
+button{
+    cursor: pointer;
+    padding: 10px;
+    border: 0px;
+}
+
+.section{
+    display: flex;
+    align-items: row;
+    gap: 25px;
+}

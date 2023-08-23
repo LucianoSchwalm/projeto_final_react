@@ -1,0 +1,10 @@
+body{
+    color-scheme: light dark;
+    color: rgba(255, 255, 255, 0.87);
+    background-color: rgb(37, 34, 34);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* body:hover{
+    background-image: url("https://media.licdn.com/dms/image/C4E03AQErtKjOFlCDRw/profile-displayphoto-shrink_800_800/0/1611031492720?e=2147483647&v=beta&t=8lxzPietGKOEd5LAMzng0k9twoUSUJfd9t9J675zSB0") 
+} */
