@@ -1,0 +1,41 @@
+.containerHeader{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    width: 98%;
+    gap: 50px;
+}
+
+.itemHeader{
+    background-color: black;
+    flex-grow: 1;
+    height: 150px;
+}
+
+.titulo{
+    margin-left: 10px;
+    text-align: left;
+}
+
+.conteudo{
+    text-align: center;
+}
+
+.containerBody{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    width: 98%;
+    gap: 50px;
+}
+
+.itemBody{
+    flex-grow: 1;
+}
+
+table{
+    margin-top: 15px;
+    text-align: left;
+}

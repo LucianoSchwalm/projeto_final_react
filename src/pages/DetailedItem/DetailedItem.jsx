@@ -2,19 +2,17 @@ import { Link, useParams } from "react-router-dom";
 import products from "../../database.json";
 import styles from "./DetailedItem.module.css";
 
-const apagaProduto = () => {}
-
 export default function DetailedItem(){
 
     const { itemId } = useParams();
-    const product = products.filter(p => p.id === +itemId);
+    const product = products.find(p => p.id === +itemId);
 
     return(
     <div className={styles.container}>
         <div className={styles.detailes}>
             <span className={styles.box}>{product.name}</span>
-            <span className={styles.box}><Link to="updateItem"><button>Atualizar</button></Link></span>
-            <span className={styles.box}><button style={{backgroundColor:"red"}} onClick={apagaProduto}>Excluir</button></span>
+            <span className={styles.box}><Link to={`../item/${itemId}`}><button>Atualizar</button></Link></span>
+            <span className={styles.box}><button style={{backgroundColor:"red"}}>Excluir</button></span>
         </div>
         <div className={styles.contents}>
             <div className={styles.content}>Categoria: {product.category}</div>
